@@ -4,7 +4,7 @@
   "description": "Repositório responsável pelos códigos de exemplo desenvolvidos no artigo do iMasters",
   "main": "index.js",
   "directories": {
-    "test": "mocha"
+    "test": "mocha || true"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,20 +13,27 @@
     "type": "git",
     "url": "git+https://github.com/glaucia86/tdd-node-mocha-chai-imasters.git"
   },
-  "keywords": ["js", "node", "tdd", "mocha", "chai", "npm"],
-  "author":
-    "Glaucia Lemos <glaucia_lemos86@hotmail.com> (http://www.code4coders.wordpress.com.br/)",
+  "keywords": [
+    "js",
+    "node",
+    "tdd",
+    "mocha",
+    "chai",
+    "npm"
+  ],
+  "author": "Glaucia Lemos <glaucia_lemos86@hotmail.com> (http://www.code4coders.wordpress.com.br/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/glaucia86/tdd-node-mocha-chai-imasters/issues"
   },
-  "homepage":
-    "https://github.com/glaucia86/tdd-node-mocha-chai-imasters#readme",
+  "homepage": "https://github.com/glaucia86/tdd-node-mocha-chai-imasters#readme",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
   "devDependencies": {
-    "chai": "^4.1.2",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.10.0",
-    "mocha": "^5.0.5"
+    "mocha": "^5.0.2"
   }
 }
